@@ -23,6 +23,7 @@
   "dependencies": {
     "koa": "^2.3.0",
     "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
     "koa-pug": "^3.0.0-2",
     "koa-router": "^7.2.1",
     "koa-static": "^4.0.1",

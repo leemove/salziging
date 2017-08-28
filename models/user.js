@@ -6,3 +6,5 @@ let userSchema = mongoose.Schema({
   avator: Buffer
 })
 let User = mongoose.model('User', userSchema)
+
+module.exports = User

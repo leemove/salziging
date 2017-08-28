@@ -8,11 +8,11 @@ module.exports = {
   mongo: {
       // 开发时用的数据库
       'development': {
-          connectionString: 'mongodb://127.0.0.1/blog'
+          connectionString: 'mongodb://127.0.0.1/friendsaid'
       },
       // 生产时用的数据库
       'production': {
-          connectionString: 'mongodb://127.0.0.1/blog' //有待修改
+          connectionString: 'mongodb://127.0.0.1/friendsaid' //有待修改
       },
       opts: {
           server: {

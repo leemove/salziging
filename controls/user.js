@@ -1,8 +1,13 @@
 const User = require('../models/user')
+const Usermodel = require('../models/user')
 module.exports = {
   async sign (ctx, next) {
-    console.log(ctx)
+    const my = new Usermodel({
+      username: 'test',
+      password: 'test'
+    })
+    await my.save()
     await next()
-    ctx.body = "<h1>sign</h1>"
+    ctx.body = {ok: 'ok'}
   }
 }
